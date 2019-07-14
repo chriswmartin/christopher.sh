@@ -9,6 +9,7 @@ public_folder: "/img/portfolio"
 
 collections:
   - name: "portfolio" # used in routes, e.g., /admin/collections/blog
+    format: "toml-frontmatter"
     label: "Portfolio" # used in the ui
     folder: "content/portfolio" # the path to the folder where the documents are stored
     create: true # allow users to create new documents in this collection
@@ -20,6 +21,7 @@ collections:
       - {label: "featured image", name: "image", widget: "image"}
       - {label: "body", name: "body", widget: "markdown"}
   - name: "teaching" # used in routes, e.g., /admin/collections/blog
+    format: "toml-frontmatter"
     label: "Teaching" # used in the ui
     folder: "content/teaching" # the path to the folder where the documents are stored
     create: true # allow users to create new documents in this collection
