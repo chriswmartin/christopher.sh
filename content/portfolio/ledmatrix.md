@@ -1,12 +1,10 @@
-+++
-draft = false
-image = "img/portfolio/Animated-LED-Matrix/1.jpeg"
-showonlyimage = false
-title = "Animated LED Matrix"
-+++
-
-![](/img/portfolio/Animated-LED-Matrix/1.jpeg)
-
-![](/img/portfolio/Animated-LED-Matrix/2.jpeg)
-
-![](/img/portfolio/Animated-LED-Matrix/3.jpeg)
+---
+image: "/portfolio/images/led-matrix/1.jpeg"
+showonlyimage: false
+title: "Animated LED Matrix"
+type: "gallery"
+layout: "list"
+galleryFolder: "images/led-matrix/"
+clickablePhotos: true
+url: "/ledmatrix"
+---
