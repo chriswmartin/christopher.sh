@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "static/img/portfolio"
+public_folder: "/img/portfolio" 
+
+collections:
+  - name: "portfolio" # used in routes, e.g., /admin/collections/blog
+    format: "toml-frontmatter"
+    label: "Portfolio" # used in the ui
+    folder: "content/portfolio" # the path to the folder where the documents are stored
+    create: true # allow users to create new documents in this collection
+    slug: "{{slug}}" # filename template, e.g., yyyy-mm-dd-title.md
+    fields: # the fields for each document, usually in front matter
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "draft", name: "draft", widget: "boolean"}
+      - {label: "show only image", name: "showonlyimage", widget: "boolean"}
+      - {label: "featured image", name: "image", widget: "image"}
+      - {label: "body", name: "body", widget: "markdown"}
+  - name: "teaching" # used in routes, e.g., /admin/collections/blog
+    format: "toml-frontmatter"
+    label: "Teaching" # used in the ui
+    folder: "content/teaching" # the path to the folder where the documents are stored
+    create: true # allow users to create new documents in this collection
+    slug: "{{slug}}" # filename template, e.g., yyyy-mm-dd-title.md
+    fields: # the fields for each document, usually in front matter
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "draft", name: "draft", widget: "boolean"}
+      - {label: "show only image", name: "showonlyimage", widget: "boolean"}
+      - {label: "featured image", name: "image", widget: "image"}
+      - {label: "body", name: "body", widget: "markdown"}
+
