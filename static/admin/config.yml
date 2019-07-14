@@ -19,8 +19,6 @@ collections:
       - {label: "show only image", name: "showonlyimage", widget: "boolean"}
       - {label: "featured image", name: "image", widget: "image"}
       - {label: "body", name: "body", widget: "markdown"}
-
-collections:
   - name: "teaching" # used in routes, e.g., /admin/collections/blog
     label: "Teaching" # used in the ui
     folder: "content/teaching" # the path to the folder where the documents are stored
