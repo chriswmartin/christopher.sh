@@ -7,3 +7,5 @@ clickablePhotos: true
 maxWidth: "800x"
 url: "/nightlight"
 ---
+
+An interactive night light that uses an Arduino and photocell to activate a parallel LED circuit at night.
