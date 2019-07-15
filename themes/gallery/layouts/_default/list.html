@@ -11,10 +11,9 @@
             {{ end }}
             <a href="{{.Permalink}}">
                 {{.Title}}
-        {{ if .Params.image }}
-
-          <img src="{{ .Params.image }}"></img>
-        {{ end }}
+                {{ if .Params.image }}
+                  <img src="{{ .Params.image }}"></img>
+                {{ end }}
             </a>
         </li>
         {{ end }}
