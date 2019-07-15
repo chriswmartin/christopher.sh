@@ -25,5 +25,9 @@ smallPreviewImages   = false
     text = "teaching"
 
 [[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
+
+[[params.mainMenu]]
     link = "/about"
     text = "about"
