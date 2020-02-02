@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../Fonts/FiraCode/FiraCode-Regular.woff2') format('woff2'),
+    url("../Fonts/FiraCode/FiraCode-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Fira Code', Monospace;
+  margin-left: 2%;
+}
+
+footer {
+  margin-top: 2%;
+  margin-right: 2%;
+  font-size: 15px;
+}
+
+footer hr {
+    background-color: #696969;
+    border: 0 none;
+    color: #696969;
+    height: 1px;
+}
+
+footer p {    
+    color: #696969;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+/*
+#header {
+	background-color: purple;
+	border-radius: 0.4em;
+	padding: 0.5%;
+	width: 35%;
+	margin-top: 2%;
+  transition: all 0.5s ease;
+}
+#header:link {
+	background-color: purple;
+}
+#header:visited {
+	background-color: purple;
+}
+#header:active {
+	background-color: blue;
+}
+#header:hover {
+	background-color: blue;
+	transition: background-color 2s ease-out;
+}
+#header h1 {
+  text-align: center;
+  margin: 2%;
+  color: white;
+}
+*/
+
+.grid { 
+	margin-right: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+  grid-gap: 20px;
+  align-items: center;
+}
+.grid img {
+  max-width: 100%;
+  border: 1px solid #696969;
+}
+.grid div {
+  border: 1px solid #696969;
+}
+.grid div p {
+  margin: 0.5em;
+}
