@@ -1,5 +1,5 @@
 @media screen 
- and (max-device-width: 480px) 
+ and (max-width: 480px) 
 { 
 	.grid { 
 		margin-right: 2%;
