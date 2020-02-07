@@ -6,19 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="stylesheet" href="https://unpkg.com/normalize.css">
     <link rel="stylesheet" href="https://unpkg.com/concrete.css">
-    <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
-		<link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
 		<link rel="stylesheet" href="css/styles.css">
-
-		<script>
-			document.addEventListener('DOMContentLoaded',function(){
-  			new SmartPhoto(".photo",{
-    			resizeStyle: 'fit',
-    			useOrientationApi: false
-  			});
-			});
-		</script>
-		
   </head>
 
   <body>
@@ -32,28 +22,38 @@
     </div>
 		<br>
 
-		<div class="grid">
-		
-		    <a href='img/lite_brite_1.jpg' class='photo'>
-    			<img src="img/lite_brite_1.jpg">
-    		</a>
-    		
-		    <a href='img/lite_brite_2.jpg' class='photo'>
-    			<img src="img/lite_brite_2.jpg">
-    		</a>
-    		
-		    <a href='img/lite_brite_3.jpg' class='photo'>
-    			<img src="img/lite_brite_3.jpg">
-    		</a>
-    		
-    		<a href='img/lite_brite_4.jpg' class='photo'>
-    			<img src="img/lite_brite_4.jpg">
-    		</a>
-    		
-    		<a href='img/lite_brite_5.jpg' class='photo'>
-    			<img src="img/lite_brite_5.jpg">
-    		</a>
-  	    
+		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+    	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      	<a href="img/lite_brite_1.jpg" itemprop="contentUrl" data-size="4032x3024">
+        	<img src="img/lite_brite_1.jpg" itemprop="thumbnail"/>
+      	</a>                                          
+    	</figure>
+    
+    	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      	<a href="img/lite_brite_2.jpg" itemprop="contentUrl" data-size="4032x3024">
+        	<img src="img/lite_brite_2.jpg" itemprop="thumbnail"/>
+      	</a>                                          
+    	</figure>
+    	
+    	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      	<a href="img/lite_brite_3.jpg" itemprop="contentUrl" data-size="4032x3024">
+        	<img src="img/lite_brite_3.jpg" itemprop="thumbnail"/>
+      	</a>                                          
+    	</figure>
+    	
+    	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      	<a href="img/lite_brite_4.jpg" itemprop="contentUrl" data-size="4032x3024">
+        	<img src="img/lite_brite_4.jpg" itemprop="thumbnail"/>
+      	</a>                                          
+    	</figure>
+    	
+    	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      	<a href="img/lite_brite_5.jpg" itemprop="contentUrl" data-size="4032x3024">
+        	<img src="img/lite_brite_5.jpg" itemprop="thumbnail"/>
+      	</a>                                          
+    	</figure>
+    	
   	</div>
     	
     <br>
@@ -67,6 +67,46 @@
    			chrismartin@riseup.net
    		</p>
    </footer>
-    	
+    		
+  <!-- photoswipe.js -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+          </div>
+        </div>
+	</div>
+  
+  <script  src="js/script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js'></script>
+	<!-- end of photoswipe.js -->
+	 	
   </body>
 </html>

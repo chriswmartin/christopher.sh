@@ -70,3 +70,25 @@ footer p {
 .grid div p {
   margin: 0.5em;
 }
+
+.my-gallery figure {
+  margin: 0px;
+  padding: 0px;
+}
+.my-gallery { 
+	margin-right: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+  grid-gap: 20px;
+  align-items: center;
+}
+.my-gallery img {
+  max-width: 100%;
+  border: 1px solid #696969;
+}
+.my-gallery div {
+  border: 1px solid #696969;
+}
+.my-gallery div p {
+  margin: 0.5em;
+}
