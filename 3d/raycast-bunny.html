@@ -75,7 +75,7 @@ function main() {
     const color = 0xFFFFFF;
     const intensity = 1;
     const light = new THREE.DirectionalLight(color, intensity);
-    light.position.set(10, 10, 0);
+    light.position.set(-10, -10, 0);
     light.target.position.set(-5, 0, 0);
     scene.add(light);
     scene.add(light.target);
