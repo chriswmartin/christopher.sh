@@ -1,10 +1,8 @@
-<!-- Licensed under a BSD license. See license.html for license -->
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Three.js - Load .OBJ ?</title>
+    <title>Raycast Bunny</title>
     <style>
     html, body {
         margin: 0;
@@ -46,6 +44,7 @@ function main() {
   {
     const planeSize = 40;
 
+    /*
     const loader = new THREE.TextureLoader();
     const texture = loader.load('img/checker.png');
     texture.wrapS = THREE.RepeatWrapping;
@@ -59,6 +58,8 @@ function main() {
       map: texture,
       side: THREE.DoubleSide,
     });
+    */
+
     const mesh = new THREE.Mesh(planeGeo, planeMat);
     mesh.rotation.x = Math.PI * -.5;
     scene.add(mesh);
@@ -76,7 +77,7 @@ function main() {
     const color = 0xFFFFFF;
     const intensity = 1;
     const light = new THREE.DirectionalLight(color, intensity);
-    light.position.set(0, 10, 0);
+    light.position.set(0, 20, 0);
     light.target.position.set(-5, 0, 0);
     scene.add(light);
     scene.add(light.target);
