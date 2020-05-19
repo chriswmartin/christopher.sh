@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=0.5'>
+<link rel='stylesheet' href='https://unpkg.com/normalize.css'>
+<link rel='stylesheet' href='https://unpkg.com/concrete.css'>
+<link rel='stylesheet' href='css/styles.css'>
+<title>Links</title>
+</head>
+<body>
+<br><div id='header'><h2><a href='index.html'> <- </a><span class='inline-border'> Links </span></h2></div><br>
+<div class='link'>
+<h3><a href='https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf' target='_blank'>Linux CLI explained</a></h3>
+<p>PDF Linux Learning</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://newcss.net/' target='_blank'>new.css</a></h3>
+<p>CSS Webdesign</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://minimaxir.com/2019/09/howto-gpt2/' target='_blank'>How To Make Custom AI-Generated Text With GPT-2</a></h3>
+<p>Neural-network Tools</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://aiweirdness.com/post/618298096035741696' target='_blank'>Escape rooms</a></h3>
+<p>Neural-network</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://www.thisworddoesnotexist.com/' target='_blank'>This Word Does Not Exist</a></h3>
+<p>Neural-network</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://www.benawad.com/scraping-recipe-websites/' target='_blank'>Scraping Recipe Websites</a></h3>
+<p>Programming Scraping</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://urlscan.io/' target='_blank'>URL and website scanner - urlscan.io</a></h3>
+<p>Web Security</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://gitlab.com/BenWiser/googledocsblog' target='_blank'>GoogleDocsBlog · GitLab</a></h3>
+<p>Tools Blog</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='https://edavis.github.io/hnrss/' target='_blank'>Hacker News RSS</a></h3>
+<p>Blog Tools</p>
+</div>
+<br>
+<div class='link'>
+<h3><a href='http://hn.luap.info/' target='_blank'>Hackernews without big news sites</a></h3>
+<p>Blog News</p>
+</div>
+<br>
+</body>
+</html>
