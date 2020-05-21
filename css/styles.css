@@ -55,7 +55,11 @@ footer p {
 .inline-border{
 	border: 1px solid #696969;
 	padding: 0.5%;
-} 
+}
+
+.tag {    
+  color: #696969;
+}
 
 .grid { 
 	margin-right: 2%;
