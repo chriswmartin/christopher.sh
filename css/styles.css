@@ -40,6 +40,10 @@ footer hr {
     height: 1px;
 }
 
+footer a {    
+    color: #696969;
+}
+
 footer p {    
     color: #696969;
 }
