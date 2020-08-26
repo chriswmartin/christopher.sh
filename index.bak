@@ -10,7 +10,72 @@
 
   <body>
 
-    <div id="nav">
+    <div class='sidebar'>
+      <ul>
+  <li>
+
+          <div id="header">
+    	      <a href='index.html'>
+    		      <h3>
+    			      <span class="inline-border">
+      			      Chris Martin
+      		      </span>
+    		      </h3>
+    	      </a>
+          </div>
+
+    <ul>
+      <li>
+              <div>
+    	          <a href='https://textfile.io' target="_blank">
+    	            <h4>
+    		            <span class="inline-border">
+      		            Blog
+      		          </span>
+    		          </h4>
+    	          </a>
+              </div>
+
+      </li>
+    </ul>
+  </li>
+</ul>
+      </div>
+    
+      <!-- 
+      <div class='sidebar'>
+      <ul>
+        <li>
+          <div id="header">
+    	      <a href='index.html'>
+    		      <h2>
+    			      <span class="inline-border">
+      			      Chris Martin
+      		      </span>
+    		      </h2>
+    	      </a>
+          </div>
+          <ul>
+            <li>
+              <div>
+    	          <a href='https://textfile.io' target="_blank">
+    	            <h4>
+    		            <span class="inline-border">
+      		            Blog
+      		          </span>
+    		          </h4>
+    	          </a>
+              </div>
+            </li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+      -->
+
+    <!--
+    
+    <div class='sidebar'>
       <div id="header">
     	  <a href='index.html'>
     		  <h2>
@@ -20,7 +85,7 @@
     		  </h2>
     	  </a>
       </div>
-      <div id="items">
+      <div>
     	  <a href='https://textfile.io' target="_blank">
     	    <h4>
     		    <span class="inline-border">
@@ -30,7 +95,7 @@
     	  </a>
       </div>
     </div>
-
+    -->
 		<br>
 		
     <div class="content">

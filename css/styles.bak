@@ -3,7 +3,7 @@
 	.grid { 
 		margin-right: 2%;
   	display: grid;
-  	grid-template-columns: repeat(auto-fill, minmax(75%, 2fr));
+  	grid-template-columns: repeat(auto-fill, minmax(100%, 2fr));
   	grid-gap: 20px;
   	align-items: center;
 	}
@@ -19,7 +19,7 @@
 
 body {
   font-family: 'Fira Code', Monospace;
-  margin-left: 2%;
+  margin-left: 0.5%;
 }
 
 p {
@@ -47,22 +47,77 @@ footer p {
     color: #696969;
 }
 
-#nav {
-  margin-top: 1.5%;
+@media screen and (min-width: 480px) {
+ul.tree, ul.tree ul {
+    list-style: none;
+     margin: 0;
+     padding: 0;
+   } 
+   ul.tree ul {
+     margin-left: 10px;
+   }
+   ul.tree li {
+     margin: 0;
+     padding: 0 7px;
+     line-height: 20px;
+     color: #369;
+     font-weight: bold;
+     border-left:1px solid rgb(100,100,100);
+
+   }
+   ul.tree li:last-child {
+       border-left:none;
+   }
+   ul.tree li:before {
+      position:relative;
+      top:-0.3em;
+      height:1em;
+      width:12px;
+      color:white;
+      border-bottom:1px solid rgb(100,100,100);
+      content:"";
+      display:inline-block;
+      left:-7px;
+   }
+   ul.tree li:last-child:before {
+      border-left:1px solid rgb(100,100,100);   
+   }
 }
 
-#nav #items {
-  float: right;
-  display: inline-block;
-  margin-right: 2%;
+.sidebar {
+  margin: 1%;
+  padding: 0;
+  width: 150px;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+  border: 1px solid #696969;
+}
+
+.sidebar a {
+  display: block;
+  padding: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
 
 #header a {
 	text-decoration: none;
-}
-
-#header {
-  display: inline-block;
 }
 
 .inline-border{
@@ -77,13 +132,13 @@ footer p {
 }
 
 .content {
- /* margin-left: 200px; */
+  margin-left: 200px;
 }
 
 .grid { 
 	margin-right: 2%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
   grid-gap: 20px;
   align-items: center;
 }
