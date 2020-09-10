@@ -1,3 +1,5 @@
 .DS_Store
 pin.sh
-links.old
+pin.py
+*.old
+tags/*.old

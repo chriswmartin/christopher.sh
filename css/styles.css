@@ -72,8 +72,13 @@ footer p {
   */
 }
 
-.tag {    
+.tag {
+  margin-right: 1em;
+}
+
+.tag a {
   color: #696969;
+  text-decoration: none;
 }
 
 .content {
