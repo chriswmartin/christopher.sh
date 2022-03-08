@@ -1,0 +1,64 @@
+@font-face {
+      font-family: 'IBM-Plex-Mono';
+      src: url('fonts/IBM-Plex-Mono/woff/IBMPlexMono-Light.woff') format('woff');
+      font-weight: 300;
+    }
+
+    @font-face {
+      font-family: 'IBM-Plex-Mono';
+      src: url('fonts/IBM-Plex-Mono/woff/IBMPlexMono-SemiBold.woff') format('woff');
+      font-weight: 600;
+    }
+
+    body {
+      background-color: #c4c3d0;
+	    font-family: 'IBM-Plex-Mono', monospace, sans;
+      font-weight: 300;
+	    max-width: 60em;
+      margin: 0 auto;
+      font-size: smaller;
+    }
+
+    .content { margin: 1em; }
+    
+    .box {
+      background-color: #eee;
+  	  border: 2px dashed #242526;
+	    margin: 1em;
+	    padding: 1em;
+    }
+
+    h1 {
+      color: blue;
+	    font-family: 'IBM-Plex-Mono', monospace, sans;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    h2 { font-weight: 600; }
+
+    ul li { padding: 5px 0px;  list-style-type: circle; }
+
+    h1 a:link { text-decoration: none; }
+    h1 a:hover { text-decoration: none; }
+    h1 a:active { text-decoration: none; }
+    a { text-decoration: none; }
+    a:visited { text-decoration: none; color: blue; }
+
+    img {
+      padding: 1em;
+      width: 80%;
+      max-width: 800px;
+      height: auto;
+      display: block;
+      background-color: #eee;
+      margin: 20px auto 20px auto;
+    }
+
+    .description{
+      margin: 0 auto;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    .description p { margin: 1em; font-size: larger; }
+    .description h2 { text-align: center; }
