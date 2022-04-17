@@ -33,12 +33,17 @@
       color: blue;
 	    font-family: 'IBM-Plex-Mono', monospace, sans;
       font-weight: 600;
-      font-size: medium;
+      font-size: large;
       text-align: center;
+      width: 50%;
+      margin: 0 auto;
     }
+
+    /*
     .home-link a:link { text-decoration: none; }
     .home-link a:hover { text-decoration: none; }
     .home-link a:active { text-decoration: none; }
+    */
     
     a { text-decoration: none; }
     a:visited { text-decoration: none; color: blue; }
