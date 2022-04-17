@@ -29,15 +29,22 @@
 	    padding: 1em;
     }
 
+    .home-link {
+      color: blue;
+	    font-family: 'IBM-Plex-Mono', monospace, sans;
+      font-weight: 600;
+      text-align: center;
+    }
+    .home-link a:link { text-decoration: none; }
+    .home-link a:hover { text-decoration: none; }
+    .home-link a:active { text-decoration: none; }
+
     h1 {
       color: rgb(216,86,83);
 	    font-family: 'IBM-Plex-Mono', monospace, sans;
       font-weight: 600;
       text-align: center;
     }
-    h1 a:link { text-decoration: none; }
-    h1 a:hover { text-decoration: none; }
-    h1 a:active { text-decoration: none; }
     h2 { color: rgb(104,153,196); font-weight: 600; }
     h3 { color: rgb(105,167,127); }
     h4 { color: rgb(220,132,60); }
