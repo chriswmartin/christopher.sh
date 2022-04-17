@@ -11,7 +11,8 @@
     }
 
     body {
-      background-color: #c4c3d0;
+      background-color: #eee;
+      /* background-color: #c4c3d0; */
 	    font-family: 'IBM-Plex-Mono', monospace, sans;
       font-weight: 300;
 	    max-width: 60em;
@@ -22,26 +23,27 @@
     .content { margin: 1em; }
     
     .box {
-      background-color: #eee;
-  	  border: 2px dashed #242526;
+      background-color: #fff;
+  	  border: 2px solid #242526;
 	    margin: 1em;
 	    padding: 1em;
     }
 
     h1 {
-      color: blue;
+      color: rgb(104,153,196);
 	    font-family: 'IBM-Plex-Mono', monospace, sans;
       font-weight: 600;
       text-align: center;
     }
-
-    h2 { font-weight: 600; }
-
-    ul li { padding: 5px 0px;  list-style-type: circle; }
-
     h1 a:link { text-decoration: none; }
     h1 a:hover { text-decoration: none; }
     h1 a:active { text-decoration: none; }
+    h2 { color: rgb(104,153,196); font-weight: 600; }
+    h3 { color: rgb(105,167,127); }
+    h4 { color: rgb(220,132,60); }
+
+    ul li { padding: 5px 0px;  list-style-type: circle; }
+
     a { text-decoration: none; }
     a:visited { text-decoration: none; color: blue; }
 
